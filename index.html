@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- LIGHTBOX -->
+	<link rel="stylesheet" href="lightbox/css/lightbox.css">
+	<script src="lightbox/js/lightbox-plus-jquery.min.js"></script> 
+	<script>
+    lightbox.option({
+      'resizeDuration': 50,
+      'wrapAround': true,
+	  'fadeDuration':100,
+	  'showImageNumberLabel':false,
+	  'positionFromTop': 10
+	   })
+	</script>
+	<style>
+
+		.lightboxOverlay{
+			background-color: rgb(255, 249, 227);
+		}
+
+		.lightbox .lb-image{
+			border: none;
+			border-radius: 0;
+		}
+
+		.lb-nav a.lb-prev {
+			background-image: url(soleil.svg);
+			width: 10%;
+		}
+
+		.lb-nav a.lb-next{
+			background-image: url(soleil.svg);
+			width: 10%;
+		} 
+	 
+	</style>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- PAGE -->
+
+	<style>
+		h1{
+			font-size: 2.5em;
+			margin: auto;
+			color: orange;
+		}
+		
+		/* reset */
+		* { margin:0; box-sizing: border-box; }
+
+		/* utilitaire */
+		img { max-width: 100%; display:block; }
+
+		/* typo */
+		body { font-family: system-ui; }
+		
+
+
+		body{
+			margin:0;
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;;
+			background-color: rgb(255, 249, 227);
+		}
+		body .zone{
+			flex: 1;
+		}
+
+
+
+		.zone{
+			/* outline: 1px solid pink; outline-offset: -2px; */
+
+			display: flex;
+			flex-direction: column;
+		}
+		.zone a {
+			/* background-color: #0FF5; */
+			display: block;
+			flex: 1 0 100%;
+			text-decoration: none;
+		}
+
+
+
+		/* curseurs au survol */
+		.zone { pointer-events: auto; }
+
+		/* curseur normal */
+		.zone{ cursor: default; }
+
+		.zone-a a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-b a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-c a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-d a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-e a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-f a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-g a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-h a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-i a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-j a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-k a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-l a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-m a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-n a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-o a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-p a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-q a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-r a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-s a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-t a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-u a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+		.zone-v a:hover { cursor: url("/web-png/image01_web.png") 4 5, auto; }
+		.zone-w a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-x a:hover { cursor: url("/web-png/image03_web.png") 4 5, auto; }
+		.zone-y a:hover { cursor: url("/web-png/image02_web.png") 4 5, auto; }
+		.zone-z a:hover { cursor: url("/web-png/image04_web.png") 4 5, auto; }
+
+	</style>
+
+</head>
+
+<body>
+	<h1>Bronzage et sueur</h1>
+	<div class="zone zone-a"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-b"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-c"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-d"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-e"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-f"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-g"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-h"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-i"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-j"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-k"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-l"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-m"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-n"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-o"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-p"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-q"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-r"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-s"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-t"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-u"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-v"><a href="image01_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-w"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-x"><a href="image03_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-y"><a href="image02_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+	<div class="zone zone-z"><a href="image04_web copie.jpg" data-lightbox="image-1" data-title="Bronzage et sueur">&nbsp;</a></div>
+</body>
+</html>
